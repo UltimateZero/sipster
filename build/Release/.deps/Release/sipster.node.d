@@ -1,0 +1,1 @@
+cmd_Release/sipster.node := ln -f "Release/obj.target/sipster.node" "Release/sipster.node" 2>/dev/null || (rm -rf "Release/sipster.node" && cp -af "Release/obj.target/sipster.node" "Release/sipster.node")
